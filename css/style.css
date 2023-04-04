@@ -716,6 +716,7 @@
   padding: 1.2rem;
   border-radius: 50%;
   cursor: pointer;
+  transition: all 0.3s;
 }
 
 .all-recipes-pagination-number {
@@ -725,6 +726,11 @@
   border-radius: 50%;
   height: fit-content;
   padding: 1.2rem 2rem;
+}
+
+.all-recipes-btn:hover {
+  background-color: #cf711f;
+  color: #fae5d3;
 }
 
 .hidden {

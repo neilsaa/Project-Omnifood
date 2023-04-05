@@ -13,7 +13,7 @@ const meal1 = {
 const meal2 = {
   img: "img/meals/meal-2.jpg",
   categories: ["vegetarian", "paleo"],
-  name: "JAvocado Salad",
+  name: "Avocado Salad",
   description:
     "This super easy n’oatmeal is made in just 3 minutes and it’s gluten, paleo, vegan",
   Calories: 400,

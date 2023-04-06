@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .prompt {
   background-color: #fdf2e9;
   margin-top: 12.8rem;
@@ -35,3 +36,42 @@
   font-size: 1.8rem;
   line-height: 1.8;
 }
+=======
+.prompt {
+  background-color: #fdf2e9;
+  margin-top: 12.8rem;
+  margin-bottom: 4.8rem;
+  padding: 8rem;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 11px;
+  border: 1px solid #e67e22;
+}
+.prompt-content-box {
+  align-items: center;
+}
+.prompt-heading {
+  font-size: 3.6rem;
+  margin-bottom: 3.2rem;
+}
+
+.prompt-message {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.last-line {
+  margin-bottom: 4.8rem;
+}
+.prompt-note {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 9.6rem;
+}
+.prompt-note p {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+>>>>>>> 7f32f27c4b21586e5e287679a9b2ff53d9016693

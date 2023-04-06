@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .marquee-animation {
   animation: marquee 12s infinite alternate;
 }
@@ -31,3 +32,38 @@
     transform: translateY(0%);
   }
 }
+=======
+.marquee-animation {
+  animation: marquee 12s infinite alternate;
+}
+
+.marquee-animation:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* ANIMATION FOR APP SCREENSHOTS */
+.animate-img img {
+  animation: scroll-img 1s ease-in-out;
+  display: block;
+}
+
+@keyframes scroll-img {
+  0% {
+    opacity: 0;
+    transform: translateY(40%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+>>>>>>> 7f32f27c4b21586e5e287679a9b2ff53d9016693
